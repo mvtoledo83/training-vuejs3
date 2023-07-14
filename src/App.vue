@@ -15,7 +15,7 @@
           :key="index"
           :tarefa="tarefa"
         />
-        <Box v-if="listaEstaVazia">Você Não está FAZENDO NADA HOJE!!!!</Box>
+        <Box v-if="listaEstaVazia">Insira uma task</Box>
       </div>
     </div>
   </main>
